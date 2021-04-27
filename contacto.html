@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contacto</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Desarrollo, developer, aplicaciones, software, app" />
+      <meta name="description" content="Desarrollo de aplicaciones multiplataforma" />
+
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+
+    </head>
+    <body id="contacto">
+
+        <div id="contenedor">
+
+            <header>
+                <!-- Cabecera de la página-->
+                <div class="logo">
+                    <img src="imagenes/cucudrulu gifColores.gif" />
+           </div>
+           <h3>EQUIPO CUCUDRULU</h3>
+            </header>
+            <nav>
+                <!-- Menú de la página -->
+
+                <ul>
+                    <li><a href="index.html">Home</a> </li>
+                    <li><a href="quienes.html">Quiénes somos</a> </li>
+                    <li><a href="noticias.html">Noticias</a> </li>
+                    <li><a href="servicios.html">Servicios</a> </li>
+                    <li><a href="contacto.html">Contacto</a> </li>
+                </ul>
+            </nav>
+
+            <section class="section_formulario">
+                <!-- Contenido principal "section" -->
+                <div class="contenedor_formulario">
+                    <form action="procesarPeticion.jsp" method="get"> <!-- Javascript "procesarPeticion" con metodo get-->
+
+                    <!--label "nombre"-->
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre...">
+                        <!--
+                            - La etiqueta <label> es una etiqueta del formulario.
+                            - "<label for=", describe el nombre de la etiqueta.
+                            - "<input type=", define el elemento de label, en este caso texto.  
+                        -->
+                  
+                    <!--label "apellido"-->
+                        <label for="apellido">Apellido</label>
+                        <input type="text" id="apellido" name="apellido" placeholder="Tu apellido...">
+                  
+                    <!--label "email"-->
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="Tu email...">
+
+                    <!-- "Menu desplegable" con etiquetas <select><option>. -->    
+                        <label for="tipo_SO">¿Sobre que sistema operativo deseas consultarnos?: </label>
+                        <select name="Sistema operativo...">
+                            <option value="Microsoft Windows">Microsoft Windows</option>
+                            <option value="Mac OS">Mac OS</option>
+                            <option value="UNIX">UNIX</option>
+                            <option value="LINUX">LINUX</option>
+                            <option value="iOS">iOS</option>
+                            <option value="Android">Android</option>
+                            <option value="Otro">Otro</option>
+                        </select>
+                        <br/>
+                  
+                    <!--label "asunto"-->
+                        <label for="asunto">Asunto</label>
+                        <textarea id="asunto" name="asunto" placeholder="Escríbenos..." class="textareaclass"></textarea>
+                        
+                    <!--label "terminos"-->  
+                        <label for="terminos">¿Acepta nuestros terminos de uso? </label>
+                        <br/>
+                        <br/>
+                        <input type="checkbox" name="terminos" value="Y" /> Si, he leido y acepto los <a href="terminos.html">terminos de uso</a> 
+                        <br/>
+                        <br/>
+
+                    <!--boton "submit"-->
+                        <input type="submit" value="Enviar">
+
+                    </form>
+                </div>
+            </section>
+
+            <aside>
+                <!--  información menos relevante de la página -->
+               
+            </aside>
+            
+            <footer>
+                <!-- Pie de la página -->
+            </footer>
+
+        </div>
+
+    </body>
+</html> 
+</html>
