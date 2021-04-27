@@ -102,3 +102,67 @@ header .logo{
     header .logo img{
     width: 100%;
     }
+
+/* STYLE DE FORMULARIO */
+
+/* Clase de "section" creada, para no alterar original*/
+.section_formulario{
+    border: 0px solid #903;
+    width: 550px;
+    float: left;
+    height: 500px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+    
+input[type=text], select, textarea {
+    font-size: 12px;  /* Tamaño de fuente */
+    width: 100%; /* Tamaño completo */
+    padding: 5px; /* Padding */ 
+    box-sizing: border-box; /* Para asegurar que el padding y ancho esten en sus sitio */
+    margin-top: 5px; /* Margen en la parte de arriba */
+    margin-bottom: 12px; /* Margen en la parte de abajo */
+    resize: vertical /* Para ajustar el tamaño (solo en vertical) de "textarea" */
+}
+      
+    /* Style de boton "Enviar" */
+input[type=submit] {
+    background-color: #903; /* Color de fondo del boton */
+    color: white; /* Color de fuente */
+    padding: 12px 20px; /* Padding boton */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Redondear bordes */
+    cursor: pointer; /* El cursor actua como "apuntador" (pointer), indica un enlace */
+}
+      
+    /* Style de hover sobre boton "Enviar" (cuando mueves el raton sobre el boton, cambia un color más oscuro */
+input[type=submit]:hover {
+    background-color: rgb(89, 1, 30);
+}
+      
+    /* Add a background color and some padding around the form */
+.contenedor_formulario {
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    background-color: #f2f2f2; /* Color de fondo del contenedor del formulario */
+    padding: 12px;
+}
+
+    /* Style de "textarea" (zona de texto) */
+.textareaclass {
+    height:115px; /* Tamaño vertical */
+}
+
+    /* Style de "label" (etiqueta) */
+.label{
+    font-size: 15px;
+}
+
+/* Style de "Terminos de uso*/
+
+#terminos section { /* id unico para el body de terminos*/
+    height: auto; /* para ajustar el contenido de texto en la section */
+    color: white;
+    font-size: 11px;
+}
