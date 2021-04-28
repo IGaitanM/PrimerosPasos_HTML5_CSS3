@@ -58,7 +58,7 @@
 
                     <!--label "nombre"-->
                         <label for="nombre">Nombre</label>
-                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre...">
+                            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre...">
                         <!--
                             - La etiqueta <label> es una etiqueta del formulario.
                             - "<label for=", describe el nombre de la etiqueta.
@@ -67,34 +67,51 @@
                   
                     <!--label "apellido"-->
                         <label for="apellido">Apellido</label>
-                        <input type="text" id="apellido" name="apellido" placeholder="Tu apellido...">
+                            <input type="text" id="apellido" name="apellido" placeholder="Tu apellido...">
                   
                     <!--label "email"-->
                         <label for="email">Email</label>
-                        <input type="text" id="email" name="email" placeholder="Tu email...">
+                            <input type="text" id="email" name="email" placeholder="Tu email...">
 
-                    <!-- "Menu desplegable" con etiquetas <select><option>. -->    
-                        <label for="tipo_SO">¿Sobre que sistema operativo deseas consultarnos?: </label>
-                        <select name="Sistema operativo...">
-                            <option value="Microsoft Windows">Microsoft Windows</option>
-                            <option value="Mac OS">Mac OS</option>
-                            <option value="UNIX">UNIX</option>
-                            <option value="LINUX">LINUX</option>
-                            <option value="iOS">iOS</option>
-                            <option value="Android">Android</option>
-                            <option value="Otro">Otro</option>
+                    <!--"Menu desplegable" con etiquetas <select><option>. -->    
+                        <label for="como_nos_conoces">¿Por que medio, nos has llegado a conocer?: </label>
+                        <select name="Medios...">
+                            <option value="google"> En el buscador de google</option>
+                            <option value="medios sociales"> Por medios sociales</option>
+                            <option value="buzoneo"> Publicidad de buzoneo</option>
+                            <option value="un conocido"> Por alguien que os conoce</option>
+                            <option value="Otro"> Otros medios</option>
                         </select>
+                        <br/>
+
+                    <!--Label con input type "radio", con el atributo "checked" en "Otros servicios"-->    
+                        <label for="servicios">¿Que servicio deseas consultar?: </label>
+                        <br/>	
+                            <input type="radio" name="servicios" value="Mar" /> Marketing<br />	
+                            <input type="radio" name="servicios" value="Man" /> Manenimiento web<br />	
+                            <input type="radio" name="servicios" value="O" checked/> Otros servicios<br />		
+                        <br/>
+
+                    <!--Label con input type "checkbox", con el atributo "checked" en "Otros"-->      
+                        <label for="sistemas">¿Sobre que sistema o sistemas, deseas consultarnos?: </label>
+                        <br />	
+                            <input type="checkbox" name="sistemas" value="W" /> Microsoft Windows<br />	
+                            <input type="checkbox" name="sistemas" value="M" /> Mac OS<br />	
+                            <input type="checkbox" name="sistemas" value="L" /> Linux<br />
+                            <input type="checkbox" name="sistemas" value="i" /> iOS<br />	
+                            <input type="checkbox" name="sistemas" value="A" /> Android<br />	
+                            <input type="checkbox" name="sistemas" value="O" checked/> Otros<br />		
                         <br/>
                   
                     <!--label "asunto"-->
                         <label for="asunto">Asunto</label>
-                        <textarea id="asunto" name="asunto" placeholder="Escríbenos..." class="textareaclass"></textarea>
+                            <textarea id="asunto" name="asunto" placeholder="Escríbenos..." class="textareaclass"></textarea>
                         
                     <!--label "terminos"-->  
                         <label for="terminos">¿Acepta nuestros terminos de uso? </label>
                         <br/>
                         <br/>
-                        <input type="checkbox" name="terminos" value="Y" /> Si, he leido y acepto los <a href="terminos.html">terminos de uso</a> 
+                            <input type="checkbox" name="terminos" value="Y" /> Si, he leido y acepto los <a href="terminos.html">terminos de uso</a> 
                         <br/>
                         <br/>
 
