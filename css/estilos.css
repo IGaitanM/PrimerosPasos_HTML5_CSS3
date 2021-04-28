@@ -66,6 +66,53 @@ footer {
     
 }
 
+/*----------------------------------------------------------------------------------------------------------------------
+CLASE FOOTER*/
+
+.logo-footer{
+    width: 100px;
+    
+}
+
+.contenido-footer{
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sociales{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sociales li{
+    margin: 0 10px;
+}
+
+.sociales a{
+    text-decoration: none;
+    color: black;
+}
+
+.sociales a{
+    font-size: 1.1rem;
+    transition: color .3s ease;
+}
+
+.sociales a:hover i{
+    color: green;
+}
+
+
+
+/*FIN - CLASE FOOTER
+-----------------------------------------------------------------------------------------------------------------------*/
+
 /* menu alargado */
 
 #menu1{
@@ -196,7 +243,8 @@ footer {
     width: 170%;
     }
 
-/* STYLE DE FORMULARIO */
+/*----------------------------------------------------------------------------------------------------------------------
+STYLE DE FORMULARIO*/
 
 /* Clase de "section" creada, para no alterar original*/
 .section_formulario{
@@ -252,6 +300,8 @@ input[type=submit]:hover {
 .label{
     font-size: 15px;
 }
+/* FIN - STYLE DE FORMULARIO
+--------------------------------------------------------------------------------------------------------------------*/
 
 /* Style de "Terminos de uso*/
 
