@@ -87,6 +87,14 @@ aside{
     height: 1300px;
     margin-bottom: 15px;
 }
+.aside{
+    border-radius: 25px;
+    display:inline-block;
+    position: relative;
+    margin-top: 50%;
+    margin-bottom: 20px;
+    width: 100%;
+}
 
 footer {
      border: 1px solid #903;
