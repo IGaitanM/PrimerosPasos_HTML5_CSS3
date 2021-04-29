@@ -316,7 +316,7 @@ input[type=submit]:hover {
 
     color: white;
     border: 1px solid #903;
-    width: 550px;
+    width: 76%;
     float: left;
     height: auto;
     margin-left: 15px;
@@ -327,7 +327,7 @@ input[type=submit]:hover {
 .aside_servicios{
     border: 1px solid #903;
     margin-right: 15px;
-    width: 300px;
+    width: 20%;
     float: right;
     height: 1000px;
     margin-bottom: 15px;
