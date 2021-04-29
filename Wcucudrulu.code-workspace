@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "..\\WsLMSGI-master"
+		},
+		{
+			"path": "..\\WsLMSGI"
 		}
 	]
 }

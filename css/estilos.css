@@ -10,7 +10,7 @@ font-family:Arial, Helvetica, sans-serif;
 }
 
 #contenedor{
-     border: 1px solid rgb(0, 36, 153);
+    border: 1px solid rgb(0, 36, 153);
     margin-left:auto;
 	margin-right:auto;
 	width:900px;
@@ -37,22 +37,54 @@ header {
 section{
     
     border: 1px solid #903;
+    color:azure;
     width: 76%;
+    text-align: center;
     float: right;
-    height: 1000px;
+    height: 1300px;
     margin-left: 15px;
     margin-bottom: 15px;
     position: relative;
-    
+
 }
 
+#cucuApple{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}    
+
+.texto1 {
+    float: left;
+    width: 35%;
+    margin:10px auto;
+    margin-left: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+.texto2 {
+    float: right;
+    width: 35%;
+    margin:10px auto;
+    margin-right: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+
+    }
+
+.flecha{
+   
+        width: 80%;
+
+}
 
 aside{
     border: 1px solid #903;
     margin-right: 15px;
     width: 20%;
     float: left;
-    height: 1000px;
+    height: 1300px;
     margin-bottom: 15px;
 }
 
@@ -156,20 +188,14 @@ CLASE FOOTER*/
 #menu ul {
     position: fixed;
     list-style:none;
-    margin:0;
+    margin-left: 15px;
     padding:0;
     z-index: 1;
     
     
     }
 
-    /* items del menu */
-
-    #menu ul li {
-    background-color:#ffffff00;
-    }
-
-    /* enlaces del menu */
+/* enlaces del menu */
 
     #menu ul a {
     display:block;
@@ -195,7 +221,7 @@ CLASE FOOTER*/
     /* efecto al pasar el ratón por los items del menu */
 
     #menu ul li:hover {
-    background:#0048e8;
+    background:#ff6341;
     color: #ffffff;
    
     }
@@ -249,6 +275,8 @@ STYLE DE FORMULARIO*/
 /* Clase de "section" creada, para no alterar original*/
 .section_formulario{
     border: 0px solid #903;
+    color:rgb(0, 0, 0);
+    text-align: left;
     width: 670px;
     height: 500px;
     margin-left: 15px;
