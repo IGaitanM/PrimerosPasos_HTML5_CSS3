@@ -56,6 +56,7 @@ aside{
     margin-bottom: 15px;
 }
 
+
 footer {
      border: 1px solid #903;
     clear: both;
@@ -105,10 +106,8 @@ CLASE FOOTER*/
 }
 
 .sociales a:hover i{
-    color: green;
+    color: rgb(255, 255, 255);
 }
-
-
 
 /*FIN - CLASE FOOTER
 -----------------------------------------------------------------------------------------------------------------------*/
