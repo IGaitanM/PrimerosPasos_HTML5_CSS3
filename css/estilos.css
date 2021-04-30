@@ -29,24 +29,35 @@ header {
 	overflow: hidden;
     position: relative;
     z-index: 3;
-    
-    
-    	
 }
+
+header .logo{
+        float: left;
+        width: 150px;
+            
+}
+        
+ header .logo img{
+        margin: 5px;
+        width: 170%;
+}
+    
 
 section{
     
     border: 1px solid #903;
     color:azure;
-    width: 76%;
+    width: 78%;
     text-align: center;
     float: right;
     height: 1300px;
-    margin-left: 15px;
-    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-bottom: 5px;
     position: relative;
 
 }
+
+/* Section de HOME */
 
 #cucuApple{
     display: block;
@@ -76,16 +87,16 @@ section{
 .flecha{
    
         width: 80%;
-
 }
+/* Fin Section de HOME */
 
 aside{
     border: 1px solid #903;
-    margin-right: 15px;
+    margin-right: 5px;
     width: 20%;
     float: left;
     height: 1300px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 .aside{
     border-radius: 25px;
@@ -105,9 +116,6 @@ footer {
     background-color: rgba(153,0,0,1);
     
 }
-
-/*----------------------------------------------------------------------------------------------------------------------
-CLASE FOOTER*/
 
 .logo-footer{
     width: 100px;
@@ -148,10 +156,6 @@ CLASE FOOTER*/
     color: green;
 }
 
-
-
-/*FIN - CLASE FOOTER
------------------------------------------------------------------------------------------------------------------------*/
 
 /* menu alargado */
 
@@ -217,7 +221,7 @@ CLASE FOOTER*/
     letter-spacing:1px;
     }
 
-    /* items del menu */
+/* items del menu */
 
     #menu ul li {
     position:relative;
@@ -226,14 +230,14 @@ CLASE FOOTER*/
     padding:0;
     }
 
-    /* efecto al pasar el ratón por los items del menu */
+/* efecto al pasar el ratón por los items del menu */
 
     #menu ul li:hover {
     background:#ff6341;
     color: #ffffff;
    
     }
-    /* menu desplegable */
+/* menu desplegable */
 
     #menu ul ul {
     display:none;
@@ -245,38 +249,26 @@ CLASE FOOTER*/
     padding:0;
     }
 
-    /* items del menu desplegable */
+/* items del menu desplegable */
 
     #menu ul ul li {
     float:none;
     width:150px
     }
 
-    /* enlaces de los items del menu desplegable */
+/* enlaces de los items del menu desplegable */
 
     #menu ul ul a {
     line-height:120%;
     padding:10px 15px;
     }
 
-    /* items del menu desplegable al pasar el ratón */
+/* items del menu desplegable al pasar el ratón */
 
     #menu ul li:hover > ul {
     display:block;
     }
-
-
-    header .logo{
-    float: left;
-    width: 150px;
-        
-    }
-    
-    header .logo img{
-    margin: 5px;
-    width: 170%;
-    }
-
+         
 /*----------------------------------------------------------------------------------------------------------------------
 STYLE DE FORMULARIO*/
 
@@ -286,7 +278,7 @@ STYLE DE FORMULARIO*/
     color:rgb(0, 0, 0);
     text-align: left;
     width: 670px;
-    height: 500px;
+    height: auto;
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 15px;
@@ -369,3 +361,41 @@ input[type=submit]:hover {
     margin-bottom: 15px;
 }
 
+/* Style responsive */
+
+@media screen and (max-width: 900px){
+    section {
+        width: auto;
+        float: none;
+    }
+    aside {
+        width: auto;
+        float: none;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+    article{
+        width:98%;            
+    }
+
+    body{
+        background-color: #b3660f;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        height: auto;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    aside {
+        display: none;
+    }
+    section {
+        width: 100%;
+    }
+}
