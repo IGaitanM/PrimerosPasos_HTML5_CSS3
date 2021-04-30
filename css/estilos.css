@@ -359,19 +359,11 @@ input[type=submit]:hover {
     border: 1px solid #903;
     width: 76%;
     float: right;
-    height: auto;
+    height: 1000px;
     margin-left: 15px;
     margin-bottom: 15px;
-
-}
-
-.aside_servicios{
-    border: 1px solid #903;
-    margin-right: 15px;
-    width: 20%;
-    float: left;
-    height: 1000px;
-    margin-bottom: 15px;
+    position: relative;
+    
 }
 
 /* Style responsive */
