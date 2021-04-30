@@ -75,6 +75,7 @@ section{
 }    
 
 .texto1 {
+    
     float: left;
     width: 35%;
     margin:10px auto;
@@ -83,6 +84,7 @@ section{
     margin-bottom: 20px;
     }
 .texto2 {
+    
     float: right;
     width: 35%;
     margin:10px auto;
@@ -113,6 +115,11 @@ aside{
     margin-top: 50%;
     margin-bottom: 20px;
     width: 100%;
+}
+
+img:hover, a:focus {
+    color:blue;
+    cursor:initial;
 }
 
 footer {
@@ -377,7 +384,7 @@ input[type=submit]:hover {
     }
     aside {
         width: 15%;
-
+    }
 }
 
 @media screen and (max-width: 700px){
