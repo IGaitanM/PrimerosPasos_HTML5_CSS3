@@ -331,13 +331,18 @@ input[type=submit]:hover {
 /* FIN - STYLE DE FORMULARIO
 --------------------------------------------------------------------------------------------------------------------*/
 
-/* Style de "Terminos de uso*/
+/*----------------------------------------------------------------------------------------------------------------------
+STYLE DE FORMULARIO*/
+/* STYLE DE "TERMINOS Y USO"*/
 
 #terminos section { /* id unico para el body de terminos*/
     height: auto; /* para ajustar el contenido de texto en la section */
     color: white;
     font-size: 11px;
 }
+
+/* FIN - /* STYLE DE "TERMINOS Y USO"
+--------------------------------------------------------------------------------------------------------------------*/
 
 /*Sección Servicios*/
 .section_servicios{
