@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /* CSS Document */
-
 *{
 
 margin:0px;
@@ -21,6 +20,8 @@ font-family:Arial, Helvetica, sans-serif;
 	
 }
 
+/* Estilos de la cabecera */
+
 header {
 	border: 1px solid #ff6341;
 	width:100%;
@@ -31,13 +32,15 @@ header {
     z-index: 3;
 }
 
+/* Estilos del texto de la cabecera */
+
 header .textohead{
 text-align: center;
 color: yellow;
 margin-top: 5%;
-
-
 }
+
+/* Estilos del logo de la cabecera */
 
 header .logo{
         float: left;
@@ -50,6 +53,7 @@ header .logo{
         width: 170%;
 }
     
+/* Estilos de Section en general */
 
 section{
     
@@ -65,7 +69,7 @@ section{
 
 }
 
-/* Section de HOME */
+/* Estilos Section de HOME */
 
 #cucuApple{
     display: block;
@@ -98,7 +102,8 @@ section{
    
         width: 80%;
 }
-/* Fin Section de HOME */
+
+/* Estilos de Aside */
 
 aside{
     border: 1px solid #ff6341;
@@ -108,6 +113,9 @@ aside{
     height: 1300px;
     margin-bottom: 5px;
 }
+
+/* Estilos de imágenes de aside */
+
 .aside{
     border-radius: 25px;
     display:inline-block;
@@ -117,10 +125,13 @@ aside{
     width: 100%;
 }
 
-img:hover, a:focus {
-    color:blue;
-    cursor:initial;
+/* Estilos de imágenes de aside al pasar el curosr por encima */
+
+aside img:hover, a:focus {
+    cursor:pointer;
 }
+
+/* Estilos de Footer */
 
 footer {
     clear: both;
@@ -130,10 +141,14 @@ footer {
     
 }
 
+/* Estilos del logo de Footer */
+
 .logo-footer{
     width: 100px;
     
 }
+
+/* Estilos del texto de Footer */
 
 .contenido-footer{
     font-size: 10px;
@@ -170,7 +185,7 @@ footer {
 }
 
 
-/* menu alargado */
+/* Menú alargado en nav */
 
 #menu1{
     width: 100%;
@@ -208,7 +223,7 @@ footer {
     
 }
 
-/* menu flotante */
+/* Menu flotante desplegable */
 
 #menu ul {
     position: fixed;
@@ -216,11 +231,9 @@ footer {
     margin-left: 15px;
     padding:0;
     z-index: 1;
-    
-    
     }
 
-/* enlaces del menu */
+/* enlaces del menu flotante */
 
     #menu ul a {
     display:block;
@@ -234,23 +247,15 @@ footer {
     letter-spacing:1px;
     }
 
-/* items del menu */
-
-    #menu ul li {
-    position:relative;
-    float:left;
-    margin:0;
-    padding:0;
-    }
-
-/* efecto al pasar el ratón por los items del menu */
+/* efecto al pasar el ratón por los items del menu flotante */
 
     #menu ul li:hover {
     background:#ff6341;
     color: #ffffff;
    
     }
-/* menu desplegable */
+
+/* Menu desplegable */
 
     #menu ul ul {
     display:none;
@@ -371,22 +376,56 @@ input[type=submit]:hover {
 @media screen and (max-width: 900px){
 
     #contenedor {
-        width: 80%;
+        width: 100%;
         float: none;
     }
     aside {
         width: 15%;
     }
+    header {
+        height: auto;
+
+    }
+
+    header .logo{
+        float: left;
+        width: 40%;
+            
+    }
+        
+    header .logo img{
+        margin: 5px;
+        width: 70%;
+    }  
+
+.section_formulario{
+    width:auto; 
+}
+
 }
 
 @media screen and (max-width: 700px){
+
+    header {
+        height: auto;
+
+    }
+
+    aside {
+        width: 15%;
+    }
     article{
-        width:98%;            
+        width:auto; 
+                  
     }
 
     body{
         background-color: #b3660f;
     }
+    .section_formulario{
+        width:auto; 
+    }
+    
 }
 
 @media screen and (max-width: 480px) {
