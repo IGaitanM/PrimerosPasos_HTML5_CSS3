@@ -9,7 +9,6 @@ font-family:Arial, Helvetica, sans-serif;
 }
 
 #contenedor{
-    border: 1px solid rgb(0, 36, 153);
     margin-left:auto;
 	margin-right:auto;
 	width:900px;
@@ -48,7 +47,7 @@ header .logo{
         
  header .logo img{
         margin: 5px;
-        width: 170%;
+        width: 100px;
 }
     
 /* Estilos de Section en general */
@@ -77,40 +76,30 @@ section{
 }    
 
 .texto1 {
-    
     float: left;
     width: 35%;
     margin:10px auto;
     margin-left: 20px;
+    margin-top: 10px;
     text-align: center;
     margin-bottom: 20px;
     }
 .texto2 {
-    
     float: right;
     width: 35%;
     margin:10px auto;
+    margin-top: 10px;
     margin-right: 20px;
     text-align: center;
     margin-bottom: 20px;
 
     }
 
-.texto3 {
-    
-    float: right;
-     width: 95%;
-    margin:10px auto;
-    margin-right: 20px;
-    text-align: justify;
-    margin-bottom: 20px;
-    
-        }
-
 .flecha{
-   
     width: 80%;
 }
+
+
 
 /* Estilos de Aside */
 
@@ -459,7 +448,8 @@ input[type=submit]:hover {
     
         }
     article{
-            width:100%; 
+            width:auto; 
+            font-size: auto;
         }
         
     header {
@@ -491,12 +481,12 @@ input[type=submit]:hover {
 @media screen and (max-width: 1024px){
 
     #contenedor {
-        width: 100%;
+        width: 90%;
         float: none;
     }
 
     aside {
-        width: 15%;
+        width: 18%;
         font-size: 80%;
     }
     header {
@@ -519,20 +509,32 @@ input[type=submit]:hover {
     width:74%; 
     }
 
+    body{
+        background-color: #720cd1;
+    }
+
 }
 
 /* Adaptación responsive Ipad posición vertical, Iphone horizontal */
 
 @media screen and (max-width: 768px){
 
+    #contenedor {
+        width: 100%;
+        float: none;
+    }
+
+    section {
+        width: 85%;
+    }
     header {
         height: auto;
 
     }
 
     aside {
-        width: 15%;
-        font-size: 65%;
+        width: 10%;
+        
     }
 
 
@@ -545,19 +547,16 @@ input[type=submit]:hover {
         background-color: #b3660f;
     }
     .section_formulario{
-        width:74%; 
+        width:80%; 
     }
     
 }
 
 /* Adaptación responsive Iphone en vertical */
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 480px) {
     header {
         height: auto;
-    }
-    h1 {
-        font-size: 24px;
     }
     aside {
         display: none;
@@ -567,5 +566,8 @@ input[type=submit]:hover {
     }
     .section_formulario{
         width:95%; 
+    }
+    body{
+        background-color: #b30f0f;
     }
 }
