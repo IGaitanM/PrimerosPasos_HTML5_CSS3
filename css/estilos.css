@@ -332,4 +332,25 @@ input[type=submit]:hover {
     height: 1000px;
     margin-bottom: 15px;
 }
+/* Seccion Noticias*/
+.section_noticias{
+
+    color: white;
+    border: 1px solid #903;
+    width: 76%;
+    float: right;
+    height: 2000px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    
+}
+/*formato imagenes noticias"*/
+.imgnoticias{
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float:top;
+    max-width:250px;
+}
 
