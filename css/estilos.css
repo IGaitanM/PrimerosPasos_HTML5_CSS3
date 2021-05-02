@@ -371,18 +371,7 @@ input[type=submit]:hover {
 }
 
 /*Sección Servicios*/
-.section_servicios{
 
-    color: white;
-    border: 1px solid #903;
-    width: 76%;
-    float: right;
-    height: 1000px;
-    margin-left: 15px;
-    margin-bottom: 15px;
-    position: relative;
-    
-}
 
 /* Seccion Noticias*/
 .section_noticias{
