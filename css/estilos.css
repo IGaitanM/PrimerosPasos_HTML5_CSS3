@@ -390,7 +390,74 @@ input[type=submit]:hover {
     float:top;
     max-width:250px;
 }
+/*SECCIÓN QUIENES SOMOS:*/
 
+/*Formato para las imágenes del subapartado equipo*/
+/*Imágenes alineadas a la izquierda:*/
+.quienes1
+    {   float: left; 
+        border-radius: 100px;
+        position:relative;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left:20px;
+        width: 100px;
+        height: 100px;
+        padding: 10px;}
+    
+
+/*Imágenes alineadas a la derecha:*/
+    .quienes2
+     {  float: right; 
+        border-radius: 100px;
+        position:relative;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left:0px;
+        margin-right:20px;
+        width: 100px;
+        height: 100px;
+        padding: 10px;}
+/*Formato para los títulos de cada miembro del equipo*/
+/*Títulos a la izquierda*/
+    .quienes_titulo1{
+        vertical-align: top;
+        height: 30px;
+        margin-left:100px;
+        margin-right:100px;
+        text-align: left;
+
+    }
+    /*Títulos a la derecha:*/
+    .quienes_titulo2{
+        vertical-align: top;
+        height: 30px;
+        margin-left:100px;
+        margin-right:100px;
+        text-align: right;
+
+    }
+/*Formato para los textos que describen a cada miembro*/
+/*Alineado a la izq:*/
+    .quienes_texto1
+     { 
+        vertical-align: top;
+        height: 80px;
+        margin-left:100px;
+        margin-right:140px;
+        text-align: justify;
+
+        }
+/*Alineado a la derecha*/
+    .quienes_texto2
+    { 
+        vertical-align: top;
+        height: 80px;
+        margin-left:140px;
+        margin-right:100px;
+        text-align: justify;
+
+    }
 /* Adaptación responsive ancho variable para monitores de más de 1300px */
 
 @media screen and (min-width: 1300px){
