@@ -96,20 +96,20 @@ section{
 
     }
 
-    .texto3 {
+.texto3 {
     
-        float: right;
-        width: 95%;
-        margin:10px auto;
-        margin-right: 20px;
-        text-align: justify;
-        margin-bottom: 20px;
+    float: right;
+     width: 95%;
+    margin:10px auto;
+    margin-right: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
     
         }
 
 .flecha{
    
-        width: 80%;
+    width: 80%;
 }
 
 /* Estilos de Aside */
@@ -236,7 +236,7 @@ footer {
     
 }
 
-/* Menu flotante desplegable */
+/* Menu flotante desplegable, escondido en header */
 
 #menu ul {
     position: fixed;
@@ -384,38 +384,6 @@ input[type=submit]:hover {
     
 }
 
-/* Style responsive */
-
-@media screen and (max-width: 900px){
-
-    #contenedor {
-        width: 100%;
-        float: none;
-    }
-    aside {
-        width: 15%;
-    }
-    header {
-        height: auto;
-
-    }
-
-    header .logo{
-        float: left;
-        width: 40%;
-            
-    }
-        
-    header .logo img{
-        margin: 5px;
-        width: 70%;
-    }  
-
-.section_formulario{
-    width:auto; 
-}
-
-}
 /* Seccion Noticias*/
 .section_noticias{
 
@@ -438,7 +406,135 @@ input[type=submit]:hover {
     max-width:250px;
 }
 
-@media screen and (max-width: 700px){
+/* Adaptación responsive ancho variable para monitores de más de 1300px */
+
+@media screen and (min-width: 1300px){
+
+    #contenedor {
+        width: 70%;
+        float: none;
+    }
+
+    section {
+        width: 76%;
+        height: auto;
+
+    }
+    article{
+        width:auto; 
+    }
+    aside {
+        width: 20%;
+        height: auto;
+    }
+    header {
+        height: auto;
+
+    }
+
+    header .logo{
+        float: left;
+        width: 40%;
+            
+    }
+        
+    header .logo img{
+        margin: 5px;
+        width: 70%;
+    }  
+    .section_formulario{
+        width:76%; 
+    }
+    body{
+        background-color: #000000;
+    }
+} 
+
+/* Adaptación responsive ancho fijo para monitores de 900 a 1300px */
+
+@media screen and (min-width: 900px) and (max-width: 1300px){
+
+    #contenedor {
+            width: 900px;
+             
+        }
+
+    aside {
+            width: 20%;
+            height: auto;
+        }
+
+    section {
+            width: 76%;
+            height: auto;
+    
+        }
+    article{
+            width:100%; 
+        }
+        
+    header {
+            height: auto;
+    
+        }
+    
+    header .logo{
+            float: left;
+            width: 40%;
+                
+        }
+            
+    header .logo img{
+            margin: 5px;
+            width: 70%;
+        }  
+    
+    .section_formulario{
+        width:74%; 
+    }
+    body{
+        background-color: #0c5bd1;
+    }
+}
+
+/* Adaptación responsive Ipad posición horizontal */
+
+@media screen and (max-width: 1024px){
+
+    #contenedor {
+        width: 100%;
+        float: none;
+    }
+
+    aside {
+        width: 15%;
+        font-size: 80%;
+    }
+    header {
+        height: auto;
+
+    }
+
+    header .logo{
+        float: left;
+        width: 40%;
+            
+    }
+        
+    header .logo img{
+        margin: 5px;
+        width: 70%;
+    }  
+
+    .section_formulario{
+    width:74%; 
+    }
+
+}
+
+/* Adaptación responsive Ipad posición vertical, Iphone horizontal */
+
+@media screen and (max-width: 768px){
 
     header {
         height: auto;
@@ -447,7 +543,10 @@ input[type=submit]:hover {
 
     aside {
         width: 15%;
+        font-size: 65%;
     }
+
+
     article{
         width:auto; 
                   
@@ -457,12 +556,14 @@ input[type=submit]:hover {
         background-color: #b3660f;
     }
     .section_formulario{
-        width:auto; 
+        width:74%; 
     }
     
 }
 
-@media screen and (max-width: 480px) {
+/* Adaptación responsive Iphone en vertical */
+
+@media screen and (max-width: 414px) {
     header {
         height: auto;
     }
@@ -474,5 +575,8 @@ input[type=submit]:hover {
     }
     section {
         width: 100%;
+    }
+    .section_formulario{
+        width:95%; 
     }
 }
