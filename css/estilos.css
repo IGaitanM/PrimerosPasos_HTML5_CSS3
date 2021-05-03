@@ -355,6 +355,12 @@ input[type=submit]:hover {
 .label{
     font-size: 15px;
 }
+
+.img-consultas{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
 /* FIN - STYLE DE FORMULARIO
 --------------------------------------------------------------------------------------------------------------------*/
 
