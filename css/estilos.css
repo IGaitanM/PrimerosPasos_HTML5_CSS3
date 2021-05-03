@@ -388,19 +388,7 @@ input[type=submit]:hover {
 }
 
 /* Seccion Noticias*/
-.section_noticias{
 
-    color: white;
-    border: 1px solid #903;
-    width: 76%;
-    float: right;
-    height: 1750px;
-    margin-left: 15px;
-    margin-bottom: 15px;
-    position: relative;
-    padding: 5px;
-    
-}
 /*formato imagenes noticias"*/
 .imgnoticias{
     margin-left: 15px;
