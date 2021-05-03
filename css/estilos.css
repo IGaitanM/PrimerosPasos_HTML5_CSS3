@@ -470,6 +470,10 @@ input[type=submit]:hover {
         text-align: justify;
 
     }
+    .titulo_h2{
+        text-align:center;
+        color: yellow;
+    }
 /* Adaptación responsive ancho variable para monitores de más de 1300px */
 
 @media screen and (min-width: 1300px){
