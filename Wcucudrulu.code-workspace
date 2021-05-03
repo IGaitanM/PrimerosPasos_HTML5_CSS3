@@ -1,10 +1,12 @@
 {
 	"folders": [
 		{
-			"path": "."
+			"name": "WsLMSGI",
+			"path": "..\\WsLMSGI"
 		},
 		{
-			"path": "..\\WsLMSGI"
+			"name": "WebCucudrulu",
+			"path": "."
 		}
 	]
 }
