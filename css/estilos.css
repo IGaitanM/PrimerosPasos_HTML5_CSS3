@@ -79,6 +79,7 @@ p{
     margin-right:10px;
     text-align:justify;
 }
+
 /* Estilos Section de HOME */
 
 #cucuApple{
@@ -94,7 +95,7 @@ p{
     margin:10px auto;
     margin-left: 20px;
     margin-top: 10px;
-    text-align: center;
+    text-align: center ;
     margin-bottom: 20px;
     }
 .texto2 {
@@ -103,7 +104,7 @@ p{
     margin:10px auto;
     margin-top: 10px;
     margin-right: 20px;
-    text-align: center;
+    text-align: center ;
     margin-bottom: 20px;
 
     }
@@ -480,7 +481,7 @@ input[type=submit]:hover {
 
     #contenedor {
         width: 70%;
-        float: none;
+        
     }
 
     section {
@@ -639,7 +640,19 @@ input[type=submit]:hover {
     .section_formulario{
         width:80%; 
     }
-    
+
+    iframe {
+        width:auto; 
+    }
+
+   p {
+    font-size: 90%; 
+   }
+
+   h1 {
+    font-size: 90%; 
+   }
+   
 }
 
 /* Adaptación responsive Iphone en vertical */
