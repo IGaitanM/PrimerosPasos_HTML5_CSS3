@@ -515,7 +515,7 @@ input[type=submit]:hover {
         width: 70%;
     }  
     .section_formulario{
-        width:76%; 
+        width:75%; 
     }
     body{
         background-color: #000000;
@@ -566,7 +566,7 @@ input[type=submit]:hover {
         width:74%; 
     }
     body{
-        background-color: #0c5bd1;
+        background-color: #000000;
     }
 }
 
@@ -575,8 +575,14 @@ input[type=submit]:hover {
 @media screen and (max-width: 1024px){
 
     #contenedor {
-        width: 90%;
+        width: 95%;
         float: none;
+    }
+
+    section {
+        width: 76%;
+        height: auto;
+
     }
 
     aside {
@@ -604,7 +610,7 @@ input[type=submit]:hover {
     }
 
     body{
-        background-color: #720cd1;
+        background-color: #000000;
     }
 
 }
@@ -638,7 +644,7 @@ input[type=submit]:hover {
     }
 
     body{
-        background-color: #b3660f;
+        background-color: #000000;
     }
     .section_formulario{
         width:80%; 
@@ -660,7 +666,7 @@ input[type=submit]:hover {
 
 /* Adaptación responsive Iphone en vertical */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 460px) {
     header {
         height: auto;
     }
@@ -674,6 +680,6 @@ input[type=submit]:hover {
         width:95%; 
     }
     body{
-        background-color: #b30f0f;
+        background-color: #000000;
     }
 }
