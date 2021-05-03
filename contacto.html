@@ -82,6 +82,10 @@
                     <!--label "email"-->
                         <label for="email">Email</label>
                             <input type="text" id="email" name="email" placeholder="Tu email...">
+                    
+                    <!--label "telefono", con 9 digitios comenzando por 9, 7 o 6-->
+                        <label for="tel">Teléfono</label>
+                            <input type="text" pattern="^[9|7|6|\d{8}$" placeholder="Tu numero de contacto...">
 
                     <!--"Menu desplegable" con etiquetas <select><option>. -->    
                         <label for="como_nos_conoces">¿Por que medio, nos has llegado a conocer?: </label>
@@ -113,10 +117,16 @@
                             <input type="checkbox" name="sistemas" value="O" checked/> Otros<br />		
                         <br/>
                   
+                    <!--label "date/fecha" de consulta-->
+                        <label for="date">Fecha de consulta</label>
+                            <input type="date" name="color"/>
+                        <br/>
+                        <br/>
+
                     <!--label "asunto"-->
                         <label for="asunto">Asunto</label>
                             <textarea id="asunto" name="asunto" placeholder="Escríbenos..." class="textareaclass"></textarea>
-                        
+
                     <!--label "terminos"-->  
                         <label for="terminos">¿Acepta nuestros terminos de uso? </label>
                         <br/>
@@ -174,6 +184,7 @@
                     </ul>
                     <br/>
                     <p>copyright &copy;2021 Cucudrulo Software. designed by Cucudrulo Web Designs</p>
+                    <p><a href="terminos.html">Términos de uso</a></p>
                 </div>
                 <a href="#arriba">Volver arriba</a>
 
