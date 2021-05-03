@@ -66,11 +66,13 @@ section{
 
 }
 h1{
-    color:yellow;
+    color:aqua;
+    text-align: justify;
 
 }
 h2{
-    color:aqua;
+    color:yellow;
+    text-align: justify;
 }
 p{
     margin-left:10px;
