@@ -69,6 +69,11 @@ h1{
     color:yellow;
 
 }
+p{
+    margin-left:10px;
+    margin-right:10px;
+    text-align:justify;
+}
 /* Estilos Section de HOME */
 
 #cucuApple{
