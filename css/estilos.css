@@ -379,6 +379,9 @@ input[type=submit]:hover {
 }
 
 /*Sección Servicios*/
+
+/*Formato Imagen Servicios*/
+
 .img_servicios{
     float: right; 
     border-radius: 150px;
