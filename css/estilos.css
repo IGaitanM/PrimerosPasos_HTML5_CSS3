@@ -399,7 +399,7 @@ input[type=submit]:hover {
     margin-left: 15px;
     margin-top: 15px;
     margin-bottom: 15px;
-    float:top;
+    border-radius: 150px;
     max-width:250px;
 }
 /*SECCIÓN QUIENES SOMOS:*/
