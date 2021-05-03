@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /* CSS Document */
-
 *{
 
 margin:0px;
@@ -10,237 +9,118 @@ font-family:Arial, Helvetica, sans-serif;
 }
 
 #contenedor{
-     border: 1px solid rgb(0, 36, 153);
     margin-left:auto;
 	margin-right:auto;
 	width:900px;
 	background-color:rgb(0, 0, 0);
     padding: 5px; 
-    position: relative;
-                
-	
+    
 }
 
+/* Estilos de la cabecera */
+
 header {
-	border: 1px solid #903;
+	border: 1px solid #ff6341;
 	width:100%;
     height: 150px;
 	background-color:#0048e8;
 	overflow: hidden;
     position: relative;
     z-index: 3;
-    
-    
-    	
 }
+
+/* Estilos del texto de la cabecera */
+
+header .textohead{
+text-align: center;
+color: yellow;
+margin-top: 5%;
+}
+
+/* Estilos del logo de la cabecera */
+
+header .logo{
+    float: left;
+    width: 150px;
+            
+}
+        
+ header .logo img{
+    margin: 5px;
+    width: 100px;
+}
+    
+/* Estilos de Section en general */
 
 section{
     
-    border: 1px solid #903;
-    width: 76%;
+    border: 1px solid #ff6341;
+    color:azure;
+    width: 78%;
+    text-align: center;
     float: right;
-    height: 1000px;
-    margin-left: 15px;
-    margin-bottom: 15px;
+    height: 1300px;
+    margin-left: 5px;
+    margin-bottom: 5px;
     position: relative;
-    
+
+}
+h1{
+    color:aqua;
+    text-align: justify;
+
+}
+h2{
+    color:yellow;
+    text-align: left;
+}
+p{
+    margin-left:10px;
+    margin-right:10px;
+    text-align:justify;
 }
 
+/* Estilos Section de HOME */
 
-aside{
-    border: 1px solid #903;
-    margin-right: 15px;
-    width: 20%;
+#cucuApple{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}    
+
+.texto1 {
     float: left;
-    height: 1000px;
-    margin-bottom: 15px;
-}
+    width: 35%;
+    margin:10px auto;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center ;
+    margin-bottom: 20px;
+    }
+.texto2 {
+    float: right;
+    width: 35%;
+    margin:10px auto;
+    margin-top: 10px;
+    margin-right: 20px;
+    text-align: center ;
+    margin-bottom: 20px;
 
+<<<<<<< HEAD
 
 footer {
      border: 1px solid #903;
     clear: both;
     width: 100%;
     height: 150px;
-
-    background-color: rgba(153,0,0,1);
-    
-}
-
-/*----------------------------------------------------------------------------------------------------------------------
-CLASE FOOTER*/
-
-.logo-footer{
-    width: 100px;
-    
-}
-
-.contenido-footer{
-    font-size: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-
-.sociales{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.sociales li{
-    margin: 0 10px;
-}
-
-.sociales a{
-    text-decoration: none;
-    color: black;
-}
-
-.sociales a{
-    font-size: 1.1rem;
-    transition: color .3s ease;
-}
-
-.sociales a:hover i{
-    color: rgb(255, 255, 255);
-}
-
-/*FIN - CLASE FOOTER
------------------------------------------------------------------------------------------------------------------------*/
-
-/* menu alargado */
-
-#menu1{
-    width: 100%;
-    z-index: 2;
-    position: relative;
-       
-}
-
-#menu1 ul{
-    list-style: none;
-    
-}
-
-#menu1 ul li{
-    
-    float: left;
-    width: 20%;
-    text-align: center;
-}
-
-#menu1 ul li a{
-    
-    display: block;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    font-weight: bold;
-    color: white;
-    background: #000000;
-    text-decoration: none;
-
-    
-}
-#menu1 ul li a:hover{
-    background-color: #ff6341;
-    
-}
-
-/* menu flotante */
-
-#menu ul {
-    position: fixed;
-    list-style:none;
-    margin:0;
-    padding:0;
-    z-index: 1;
-    
-    
+=======
     }
+>>>>>>> 70ee14e4377bcb061e8f4f55b624c21a399b036d
 
-    /* items del menu */
-
-    #menu ul li {
-    background-color:#ffffff00;
-    }
-
-    /* enlaces del menu */
-
-    #menu ul a {
-    display:block;
-    color:#ffffff;
-    background-color:#ffffff00;
-    text-decoration:none;
-    font-size:15px;
-    padding:10px;
-    font-weight: bold;
-    text-transform:uppercase;
-    letter-spacing:1px;
-    }
-
-    /* items del menu */
-
-    #menu ul li {
-    position:relative;
-    float:left;
-    margin:0;
-    padding:0;
-    }
-
-    /* efecto al pasar el ratón por los items del menu */
-
-    #menu ul li:hover {
-    background:#0048e8;
-    color: #ffffff;
-   
-    }
-    /* menu desplegable */
-
-    #menu ul ul {
-    display:none;
-    position:absolute;
-    top:100%;
-    left:0;
-    background:rgba(255, 255, 255, 0);
-    color:#ffffff;
-    padding:0;
-    }
-
-    /* items del menu desplegable */
-
-    #menu ul ul li {
-    float:none;
-    width:150px
-    }
-
-    /* enlaces de los items del menu desplegable */
-
-    #menu ul ul a {
-    line-height:120%;
-    padding:10px 15px;
-    }
-
-    /* items del menu desplegable al pasar el ratón */
-
-    #menu ul li:hover > ul {
-    display:block;
-    }
-
-
-    header .logo{
-    float: left;
-    width: 150px;
-        
-    }
-    
-    header .logo img{
-    margin: 5px;
-    width: 170%;
-    }
+.flecha{
+    width: 80%;
+}
 
 /*----------------------------------------------------------------------------------------------------------------------
 STYLE DE FORMULARIO*/
@@ -248,8 +128,10 @@ STYLE DE FORMULARIO*/
 /* Clase de "section" creada, para no alterar original*/
 .section_formulario{
     border: 0px solid #903;
+    color:rgb(0, 0, 0);
+    text-align: left;
     width: 670px;
-    height: 500px;
+    height: auto;
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 15px;
@@ -299,36 +181,520 @@ input[type=submit]:hover {
 .label{
     font-size: 15px;
 }
+
+.img-consulta{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
 /* FIN - STYLE DE FORMULARIO
 --------------------------------------------------------------------------------------------------------------------*/
 
+/*Sección Servicios*/
+
+/*Formato Imagen Servicios*/
+
+.img_servicios{
+    float: right; 
+    border-radius: 150px;
+    position:relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left:0px;
+    margin-right:20px;
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+}
+
+/* Seccion Noticias*/
+
+/*formato imagenes noticias"*/
+.imgnoticias{
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 150px;
+    max-width:250px;
+}
+/*SECCIÓN QUIENES SOMOS:*/
+
+/*Formato para las imágenes del subapartado equipo*/
+/*Imágenes alineadas a la izquierda:*/
+.quienes1
+    {   float: left; 
+        border-radius: 100px;
+        position:relative;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left:20px;
+        width: 100px;
+        height: 100px;
+        padding: 10px;}
+    
+
+<<<<<<< HEAD
+.sociales a:hover i{
+    color: rgb(255, 255, 255);
+}
+
+/*FIN - CLASE FOOTER
+-----------------------------------------------------------------------------------------------------------------------*/
+=======
+/*Imágenes alineadas a la derecha:*/
+    .quienes2
+     {  float: right; 
+        border-radius: 100px;
+        position:relative;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left:0px;
+        margin-right:20px;
+        width: 100px;
+        height: 100px;
+        padding: 10px;}
+/*Formato para los títulos de cada miembro del equipo*/
+/*Títulos a la izquierda*/
+    .quienes_titulo1{
+        vertical-align: top;
+        height: 30px;
+        margin-left:100px;
+        margin-right:100px;
+        text-align: left;
+
+    }
+    /*Títulos a la derecha:*/
+    .quienes_titulo2{
+        vertical-align: top;
+        height: 30px;
+        margin-left:100px;
+        margin-right:100px;
+        text-align: right;
+
+    }
+/*Formato para los textos que describen a cada miembro*/
+/*Alineado a la izq:*/
+    .quienes_texto1
+     { 
+        vertical-align: top;
+        height: 80px;
+        margin-left:100px;
+        margin-right:140px;
+        text-align: justify;
+
+        }
+/*Alineado a la derecha*/
+    .quienes_texto2
+    { 
+        vertical-align: top;
+        height: 80px;
+        margin-left:140px;
+        margin-right:100px;
+        text-align: justify;
+
+    }
+    .titulo_h2{
+        text-align:center;
+        color: yellow;
+    }
+
+/* Estilos de Aside */
+
+aside{
+    border: 1px solid #ff6341;
+    margin-right: 5px;
+    width: 20%;
+    float: left;
+    height: 1300px;
+    margin-bottom: 5px;
+    background: linear-gradient(50deg, red , blue, green);
+    background: webkit-linear-gradient(50deg, red , blue, green);
+    text-align: center;
+   
+}
+
+/* Estilos de imágenes de aside */
+
+aside img{
+    border-radius: 25px;
+    position: relative;
+    margin-top: 40%;
+    margin-bottom: 20px;
+    width: 95%;
+  
+}
+
+/* Estilos de imágenes de aside al pasar el curosr por encima */
+
+aside img:hover, a:focus {
+    cursor:pointer;
+}
+>>>>>>> 70ee14e4377bcb061e8f4f55b624c21a399b036d
+
+/* Menú alargado en nav */
+
+#menu1{
+    width: 100%;
+    z-index: 2;
+    position: relative;
+       
+}
+
+#menu1 ul{
+    list-style: none;
+    
+}
+
+#menu1 ul li{
+    
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+#menu1 ul li a{
+    
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    color: white;
+    background: #000000;
+    text-decoration: none;
+
+    
+}
+#menu1 ul li a:hover{
+    background-color: #ff6341;
+    
+}
+
+/* Menu flotante desplegable, escondido en header */
+
+#menu ul {
+    position: fixed;
+    list-style:none;
+    margin-left: 15px;
+    padding:0;
+    z-index: 1;
+    }
+
+/* enlaces del menu flotante */
+
+    #menu ul a {
+    display:block;
+    color:#ffffff;
+    background-color:#ffffff00;
+    text-decoration:none;
+    font-size:15px;
+    padding:10px;
+    font-weight: bold;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    }
+
+/* efecto al pasar el ratón por los items del menu flotante */
+
+    #menu ul li:hover {
+    background:#ff6341;
+    color: #ffffff;
+   
+    }
+
+/* Menu desplegable */
+
+    #menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:rgba(255, 255, 255, 0);
+    color:#ffffff;
+    padding:0;
+    }
+
+/* items del menu desplegable */
+
+    #menu ul ul li {
+    float:none;
+    width:150px
+    }
+
+/* enlaces de los items del menu desplegable */
+
+    #menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+    }
+
+/* items del menu desplegable al pasar el ratón */
+
+    #menu ul li:hover > ul {
+    display:block;
+    }
+
 /* Style de "Terminos de uso*/
 
-#terminos section { /* id unico para el body de terminos*/
-    height: auto; /* para ajustar el contenido de texto en la section */
-    color: white;
-    font-size: 11px;
+.scroll {
+    overflow:scroll;
+    height: 1300px;
 }
 
-/*Sección Servicios*/
-.section_servicios{
+/* Estilos de Footer */
 
-    color: white;
-    border: 1px solid #903;
-    width: 550px;
-    float: left;
-    height: auto;
-    margin-left: 15px;
-    margin-bottom: 15px;
+footer {
+    clear: both;
+    width: 100%;
+    height: 170px;
+    background-color: yellow;
+    
+}
+
+/* Estilos del logo de Footer */
+
+.logo-footer{
+    width: 100px;
+    
+}
+
+/* Estilos del texto de Footer */
+
+.contenido-footer{
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sociales{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sociales li{
+    margin: 0 10px;
+}
+
+.sociales a{
+    text-decoration: none;
+    color: black;
+}
+
+.sociales a{
+    font-size: 1.1rem;
+    transition: color .3s ease;
+}
+
+.sociales a:hover i{
+    color: green;
+}
+
+/* Adaptación responsive ancho variable para monitores de más de 1300px */
+
+@media screen and (min-width: 1300px){
+
+    #contenedor {
+        width: 70%;
+        
+    }
+
+    section {
+        width: 76%;
+        height: auto;
+
+    }
+    article{
+        width:auto; 
+    }
+    aside {
+        width: 20%;
+        height: auto;
+    }
+    header {
+        height: auto;
+
+    }
+
+    header .logo{
+        float: left;
+        width: 40%;
+            
+    }
+        
+    header .logo img{
+        margin: 5px;
+        width: 70%;
+    }  
+    .section_formulario{
+        width:75%; 
+    }
+    body{
+        background-color: #000000;
+    }
+} 
+
+/* Adaptación responsive ancho fijo para monitores de 900 a 1300px */
+
+@media screen and (min-width: 900px) and (max-width: 1300px){
+
+    #contenedor {
+            width: 900px;
+             
+        }
+
+    aside {
+            width: 20%;
+            height: auto;
+        }
+
+    section {
+            width: 76%;
+            height: auto;
+    
+        }
+    article{
+            width:auto; 
+            font-size: auto;
+        }
+        
+    header {
+            height: auto;
+    
+        }
+    
+    header .logo{
+            float: left;
+            width: 40%;
+                
+        }
+            
+    header .logo img{
+            margin: 5px;
+            width: 70%;
+        }  
+    
+    .section_formulario{
+        width:74%; 
+    }
+    body{
+        background-color: #000000;
+    }
+}
+
+/* Adaptación responsive Ipad posición horizontal */
+
+@media screen and (max-width: 1024px){
+
+    #contenedor {
+        width: 95%;
+        float: none;
+    }
+
+    section {
+        width: 76%;
+        height: auto;
+
+    }
+
+    aside {
+        width: 18%;
+        font-size: 80%;
+    }
+    header {
+        height: auto;
+
+    }
+
+    header .logo{
+        float: left;
+        width: 40%;
+            
+    }
+        
+    header .logo img{
+        margin: 5px;
+        width: 70%;
+    }  
+
+    .section_formulario{
+    width:74%; 
+    }
+
+    body{
+        background-color: #000000;
+    }
 
 }
 
-.aside_servicios{
-    border: 1px solid #903;
-    margin-right: 15px;
-    width: 300px;
-    float: right;
-    height: 1000px;
-    margin-bottom: 15px;
+/* Adaptación responsive Ipad posición vertical, Iphone horizontal */
+
+@media screen and (max-width: 768px){
+
+    #contenedor {
+        width: 100%;
+        float: none;
+    }
+
+    section {
+        width: 85%;
+    }
+    header {
+        height: auto;
+
+    }
+
+    aside {
+        width: 10%;
+        
+    }
+
+
+    article{
+        width:auto; 
+                  
+    }
+
+    body{
+        background-color: #000000;
+    }
+    .section_formulario{
+        width:80%; 
+    }
+
+    iframe {
+        width:auto; 
+    }
+
+   p {
+    font-size: 90%; 
+   }
+
+   h1 {
+    font-size: 90%; 
+   }
+   
 }
 
+/* Adaptación responsive Iphone en vertical */
+
+@media screen and (max-width: 460px) {
+    header {
+        height: auto;
+    }
+    aside {
+        display: none;
+    }
+    section {
+        width: 100%;
+    }
+    .section_formulario{
+        width:95%; 
+    }
+    body{
+        background-color: #000000;
+    }
+}
