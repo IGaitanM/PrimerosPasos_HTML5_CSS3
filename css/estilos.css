@@ -369,7 +369,18 @@ input[type=submit]:hover {
 }
 
 /*Sección Servicios*/
-
+.img_servicios{
+    float: right; 
+    border-radius: 150px;
+    position:relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left:0px;
+    margin-right:20px;
+    width: 150px;
+    height: 150px;
+    padding: 15px;}
+}
 
 /* Seccion Noticias*/
 .section_noticias{
